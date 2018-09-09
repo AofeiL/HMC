@@ -1,3 +1,8 @@
+library("mvtnorm")
+library("functional")
+library("pracma")
+library("ggplot2")
+
 leapfrog <- function(U,K,grad_U,epsilon, L, current_q,current_p, mass){
   q <- current_q
   p <- current_p
