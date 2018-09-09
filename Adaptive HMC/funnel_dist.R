@@ -1,3 +1,8 @@
+library("mvtnorm")
+library("functional")
+library("pracma")
+library("ggplot2")
+
 target <- function(q){
   v <- q[1,]
   result <- 1
